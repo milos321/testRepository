@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "postinstall": "bower install public/bower.json"
+    "postinstall": "bower install milos321/testRepository/public/bower.json"
   },
   "author": "Nikola Luburi?, Milos Savic",
   "license": "ISC",
