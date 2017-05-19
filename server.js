@@ -123,11 +123,11 @@ logger.warn('Cheese is quite smelly.');
 logger.error('Cheese is too ripe!');
 logger.fatal('Cheese was breeding ground for listeria.');
 
-//app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 5000));
 //https.createServer(httpsOptions, app).listen(7000, '0.0.0.0', function() {
 //    console.log("Express https server listening on port 0.0.0.0" + "7000");
 //});
-
+console.log(app.get('port'));
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
