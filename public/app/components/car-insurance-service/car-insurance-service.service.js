@@ -8,7 +8,7 @@
 	CarInsuranceService.$inject = ['$resource'];
 	function CarInsuranceService($resource) {
 		var collectionName = "carInsuranceServices";
-		return $resource("https://localhost:7000/api/:collectionName/:carInsuranceServiceId",
+		return $resource("https://agile-garden-53100.herokuapp.com/api/:collectionName/:carInsuranceServiceId",
 			{ carInsuranceServiceId: "@_id", collectionName: collectionName},
 			{ update: { method: 'PUT' } });
 	}
