@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "bower install"
   },
   "author": "Nikola Luburi?, Milos Savic",
   "license": "ISC",
@@ -18,7 +19,8 @@
     "csurf":"1.9.0",
   	"helmet": "3.4.0",
     "xss": "0.3.2",
-	"log4js": "1.1.0"
+	"log4js": "1.1.0",
+	"bower": "1.8.0"
   },
 	"engines": {
     "node": "6.9.5"

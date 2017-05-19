@@ -137,7 +137,7 @@ var mongoOpt = {
             "sslCert": fs.readFileSync('./cert/cert.pem')
           }
         }
-mongoose.connect('mongodb://localhost/insurance',mongoOpt);
+mongoose.connect('mongodb://milos:admin@ds147821.mlab.com:47821/milossavictest66656',mongoOpt);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
