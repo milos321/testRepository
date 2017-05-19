@@ -1,11 +1,11 @@
 {
-  "name": "company-registry",
+  "name": "test admin app",
   "version": "0.0.0",
   "authors": [
-    "Nikola Luburić <luburic91@gmail.com>"
+    "Milos Savic"
   ],
   "description": "This web application represents a registry which tracks companies and their employees",
-  "main": "index.html",
+  "main": "public/index.html",
   "keywords": [
     "angular best practices",
     "project structure",
