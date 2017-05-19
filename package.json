@@ -11,7 +11,7 @@
   "author": "Nikola Luburi?, Milos Savic",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3",
+    "express": "^4.15.2",
     "body-parser": "^1.14.1",
     "cors": "^2.7.1",
     "mongoose": "^4.4.17",
